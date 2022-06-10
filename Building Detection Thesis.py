@@ -2366,11 +2366,8 @@ Map.addLayer(median, {'min': 0.1, 'max': 0.8}, 'median')
 MyClass.get_gif()
 
 
-# In[ ]:
-
-
-get_ipython().run_cell_magic('html', '', '<img src="mygif.gif">')
-
+# %%html
+# <img src="mygif.gif">
 
 # In[ ]:
 
